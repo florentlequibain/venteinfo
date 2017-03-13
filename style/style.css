@@ -37,7 +37,7 @@ nav
   margin: auto;
 }
 
-button
+nav a
 {
   color:black;
   background-color: rgba(241,200,153,0.8);
@@ -47,9 +47,12 @@ button
   font-weight: bold;
   font-size: 25px;
   border: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
-button:hover
+nav a:hover
 {
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2)
 }
@@ -86,4 +89,6 @@ section article a
 {
   font-family:'Amatic SC';
   font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
